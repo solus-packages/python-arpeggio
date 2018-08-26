@@ -1,0 +1,47 @@
+<PISI>
+    <Source>
+        <Name>python-arpeggio</Name>
+        <Packager>
+            <Name>James Lee</Name>
+            <Email>jamesl33info@gmail.com</Email>
+        </Packager>
+        <License>MIT</License>
+        <PartOf>programming.python</PartOf>
+        <Summary xml:lang="en">Parser interpreter based on PEG grammars written in Python</Summary>
+        <Description xml:lang="en">Arpeggio is a recursive descent parser with memoization based on PEG grammars (aka Packrat parser)
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>python-arpeggio</Name>
+        <Summary xml:lang="en">Parser interpreter based on PEG grammars written in Python</Summary>
+        <Description xml:lang="en">Arpeggio is a recursive descent parser with memoization based on PEG grammars (aka Packrat parser)
+</Description>
+        <PartOf>programming.python</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/Arpeggio-1.9.0-py3.6.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/Arpeggio-1.9.0-py3.6.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/Arpeggio-1.9.0-py3.6.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/Arpeggio-1.9.0-py3.6.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/__pycache__/__init__.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/__pycache__/cleanpeg.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/__pycache__/export.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/__pycache__/peg.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/__pycache__/utils.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/cleanpeg.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/export.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/peg.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/utils.py</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-08-26</Date>
+            <Version>1.9.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>James Lee</Name>
+            <Email>jamesl33info@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
