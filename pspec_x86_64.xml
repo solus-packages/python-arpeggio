@@ -2,15 +2,15 @@
     <Source>
         <Name>python-arpeggio</Name>
         <Packager>
-            <Name>James Lee</Name>
-            <Email>jamesl33info@gmail.com</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>programming.python</PartOf>
         <Summary xml:lang="en">Parser interpreter based on PEG grammars written in Python</Summary>
         <Description xml:lang="en">Arpeggio is a recursive descent parser with memoization based on PEG grammars (aka Packrat parser)
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>python-arpeggio</Name>
@@ -19,10 +19,10 @@
 </Description>
         <PartOf>programming.python</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/Arpeggio-1.9.0-py3.6.egg-info/PKG-INFO</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/Arpeggio-1.9.0-py3.6.egg-info/SOURCES.txt</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/Arpeggio-1.9.0-py3.6.egg-info/dependency_links.txt</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/Arpeggio-1.9.0-py3.6.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/Arpeggio-1.9.2-py3.6.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/Arpeggio-1.9.2-py3.6.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/Arpeggio-1.9.2-py3.6.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/Arpeggio-1.9.2-py3.6.egg-info/top_level.txt</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/__init__.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/__pycache__/__init__.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/__pycache__/cleanpeg.cpython-36.pyc</Path>
@@ -32,16 +32,112 @@
             <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/cleanpeg.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/export.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/peg.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/__pycache__/__init__.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/__pycache__/test_decorator_combine.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/__pycache__/test_default_semantic_action.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/__pycache__/test_eolterm.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/__pycache__/test_error_reporting.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/__pycache__/test_examples.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/__pycache__/test_exporter.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/__pycache__/test_flags.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/__pycache__/test_parser_params.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/__pycache__/test_parser_resilience.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/__pycache__/test_parsing_expressions.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/__pycache__/test_pathologic_models.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/__pycache__/test_peg_parser.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/__pycache__/test_position.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/__pycache__/test_ptnode_navigation_expressions.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/__pycache__/test_python_parser.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/__pycache__/test_reduce_tree.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/__pycache__/test_semantic_action_results.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/__pycache__/test_separators.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/__pycache__/test_sequence_params.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/__pycache__/test_suppression.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/__pycache__/test_unicode.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/__pycache__/test_visitor.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/regressions/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/regressions/__pycache__/__init__.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/regressions/__pycache__/test_direct_rule_call.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/regressions/__pycache__/test_memoization.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/regressions/issue_16/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/regressions/issue_16/__pycache__/__init__.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/regressions/issue_16/__pycache__/test_issue_16.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/regressions/issue_16/test_issue_16.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/regressions/issue_20/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/regressions/issue_20/__pycache__/__init__.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/regressions/issue_20/__pycache__/test_issue_20.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/regressions/issue_20/test_issue_20.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/regressions/issue_22/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/regressions/issue_22/__pycache__/__init__.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/regressions/issue_22/__pycache__/test_issue_22.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/regressions/issue_22/test_issue_22.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/regressions/issue_26/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/regressions/issue_26/__pycache__/__init__.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/regressions/issue_26/__pycache__/test_issue_26.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/regressions/issue_26/test_issue_26.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/regressions/issue_31/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/regressions/issue_31/__pycache__/__init__.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/regressions/issue_31/__pycache__/test_issue_31.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/regressions/issue_31/test_issue_31.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/regressions/issue_32/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/regressions/issue_32/__pycache__/__init__.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/regressions/issue_32/__pycache__/test_issue_32.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/regressions/issue_32/test_issue_32.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/regressions/issue_43/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/regressions/issue_43/__pycache__/__init__.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/regressions/issue_43/__pycache__/test_issue43.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/regressions/issue_43/test_issue43.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/regressions/test_direct_rule_call.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/regressions/test_memoization.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/test_decorator_combine.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/test_default_semantic_action.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/test_eolterm.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/test_error_reporting.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/test_examples.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/test_exporter.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/test_flags.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/test_parser_params.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/test_parser_resilience.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/test_parsing_expressions.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/test_pathologic_models.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/test_peg_parser.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/test_position.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/test_ptnode_navigation_expressions.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/test_python_parser.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/test_reduce_tree.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/test_semantic_action_results.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/test_separators.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/test_sequence_params.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/test_suppression.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/test_unicode.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/tests/test_visitor.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/arpeggio/utils.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/examples/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/examples/__pycache__/__init__.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/examples/calc/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/examples/calc/__pycache__/__init__.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/examples/calc/__pycache__/calc.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/examples/calc/__pycache__/calc_cleanpeg.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/examples/calc/__pycache__/calc_peg.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/examples/calc/calc.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/examples/calc/calc_cleanpeg.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/examples/calc/calc_peg.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/examples/csv/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/examples/csv/__pycache__/__init__.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/examples/csv/__pycache__/csv.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/examples/csv/__pycache__/csv_peg.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/examples/csv/csv.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/examples/csv/csv_peg.py</Path>
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2018-08-26</Date>
-            <Version>1.9.0</Version>
+        <Update release="2">
+            <Date>2019-10-22</Date>
+            <Version>1.9.2</Version>
             <Comment>Packaging update</Comment>
-            <Name>James Lee</Name>
-            <Email>jamesl33info@gmail.com</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Update>
     </History>
 </PISI>
