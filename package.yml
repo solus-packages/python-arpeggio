@@ -1,6 +1,6 @@
 name       : python-arpeggio
 version    : 1.9.2
-release    : 3
+release    : 4
 source     :
     - https://github.com/textX/Arpeggio/archive/v1.9.2.tar.gz : 670f35833922640af7386a0d037bfb0c75710645ee7017693a926b01538e85b9
 license    : MIT
