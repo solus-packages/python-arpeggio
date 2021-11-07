@@ -1,8 +1,8 @@
 name       : python-arpeggio
-version    : 1.9.2
-release    : 4
+version    : 1.10.2
+release    : 5
 source     :
-    - https://github.com/textX/Arpeggio/archive/v1.9.2.tar.gz : 670f35833922640af7386a0d037bfb0c75710645ee7017693a926b01538e85b9
+    - https://github.com/textX/Arpeggio/archive/refs/tags/1.10.2.tar.gz : edb463a27bf6ac53819c4ad810e543cc8656ec89eed5943ba9e310bb44e197f4
 license    : MIT
 component  : programming.python
 summary    : Parser interpreter based on PEG grammars written in Python
@@ -10,10 +10,10 @@ description: |
     Arpeggio is a recursive descent parser with memoization based on PEG grammars (aka Packrat parser)
 builddeps  :
     - pytest-runner
-    - python-setuptools
+    - python-wheel
 build      : |
     %python3_setup
 install    : |
     %python3_install
 check      : |
-    %python3_test pytest
+    %python3_test pytest3
