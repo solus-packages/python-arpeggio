@@ -1,8 +1,9 @@
 name       : python-arpeggio
-version    : 1.10.2
-release    : 5
+version    : 2.0.0
+release    : 6
 source     :
-    - https://github.com/textX/Arpeggio/archive/refs/tags/1.10.2.tar.gz : edb463a27bf6ac53819c4ad810e543cc8656ec89eed5943ba9e310bb44e197f4
+    - https://files.pythonhosted.org/packages/source/A/Arpeggio/Arpeggio-2.0.0.tar.gz : d6b03839019bb8a68785f9292ee6a36b1954eb84b925b84a6b8a5e1e26d3ed3d
+homepage   : https://github.com/textX/Arpeggio
 license    : MIT
 component  : programming.python
 summary    : Parser interpreter based on PEG grammars written in Python
